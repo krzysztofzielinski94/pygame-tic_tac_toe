@@ -101,10 +101,6 @@ class Board:
     def get_board(self):
         return self.game_board
 
-class BoardObject:
-    def __init__(self):
-        pass 
-
 # PYGAME ENGINE #
 W, H = 720, 720
 HW, HH = W/3, H/3
